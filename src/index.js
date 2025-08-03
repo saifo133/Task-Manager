@@ -9,7 +9,7 @@ import Provider from './Context/TaskContext/Provider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
   <Provider>
   <React.StrictMode>
     <App />

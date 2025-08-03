@@ -1,0 +1,26 @@
+.SearchBar {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.SearchBar > div {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+input {
+    width: 400px;
+    height: 25px;
+    color: #3B68E5;
+    font-weight: bold;
+}
+
+button{
+    background: none;
+    height: fit-content;
+    border: none;
+    color: #3B68E5;
+    cursor: pointer;
+}

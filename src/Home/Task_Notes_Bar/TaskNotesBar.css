@@ -1,0 +1,18 @@
+.TaskNotesBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h4{
+    display: flex;
+    align-items: center;
+}
+
+.CheckCircleIcon{
+    color: green;
+}
+
+.SpeakerNotesIcon{
+    color: #3B68E5;
+}
